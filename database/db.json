@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "name": "tes test",
+      "email": "asd@asd.cd",
+      "id": 1,
+      "usergroups": []
+    }
+  ],
+  "groups": [
+    {
+      "name": "green label",
+      "color": "green",
+      "id": 7
+    },
+    {
+      "name": "pink",
+      "color": "pink",
+      "id": 8
+    },
+    {
+      "name": "test",
+      "color": "red",
+      "id": 9
+    }
+  ]
+}

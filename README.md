@@ -1,29 +1,25 @@
-# usermanagement
+# Welcome to User Management UI
 
-## Project setup
+### Install dependencies
 ```
 npm install
 ```
+### It is recommended to use json-server
+to run simple json based database
+`
+json-server --watch database/db.json
+`
 
-### Compiles and hot-reloads for development
-```
+To configure the API URL you need to use the `api.js` file located inside services.
+
+## Compiling and development
+
+#### Compiles and hot-reloads for development
+`
 npm run serve
-```
+`
 
-### Compiles and minifies for production
-```
+#### Compiles and minifies for production
+`
 npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+`
